@@ -26,7 +26,7 @@
 		<property name="application.name" value="nuevo2" />
 		
 		<!-- what's the name of the directory where your tests live? Note: this is just the name of the directory, not the full path-->
-		<property name="test.dir.name" value="test" />
+		<property name="test.dir.name" value="Test" />
 
 		<!-- where do your tests live, relative to this build file? test.dir.location will be a full path to a directory -->
 		<property name="test.dir.location" location="${test.dir.name}" />
