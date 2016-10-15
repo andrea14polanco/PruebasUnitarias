@@ -1,6 +1,9 @@
+package test;
 import static org.junit.Assert.*;
 
 import org.junit.Test;
+
+import Hello.HelloWorld;
 
 public class HelloTest {
 	HelloWorld h = new HelloWorld();
