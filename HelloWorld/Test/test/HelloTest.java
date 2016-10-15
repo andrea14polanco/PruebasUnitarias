@@ -10,7 +10,7 @@ public class HelloTest {
 	@Test
 	public void test() {
 	long n  = 4, m = 5;
-		assertEquals(h.sum(n, m), 96);
+		assertEquals(h.sum(n, m),14);
 	}
 
 }

@@ -21,7 +21,7 @@
     </path>
     <target name="HelloTest">
         <mkdir dir="${junit.output.dir}"/>
-        <junit fork="yes" printsummary="withOutAndErr">
+    	 <junit printsummary="yes" haltonfailure="yes" showoutput="yes" >
             <formatter type="xml"/>
             <test name="test.HelloTest" todir="${junit.output.dir}"/>
             <classpath refid="HelloWorld.classpath"/>
@@ -35,5 +35,6 @@
             </fileset>
             <report format="frames" todir="${junit.output.dir}"/>
         </junitreport>
+    	
     </target>
 </project>
