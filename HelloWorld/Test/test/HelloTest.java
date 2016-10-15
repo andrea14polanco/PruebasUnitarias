@@ -3,10 +3,10 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-import Hello.HelloWorld;
+import Hello.hello;
 
 public class HelloTest {
-	HelloWorld h = new HelloWorld();
+	hello h = new hello();
 	@Test
 	public void test() {
 	long n  = 4, m = 5;

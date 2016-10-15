@@ -1,6 +1,6 @@
 package Hello;
 
-public class HelloWorld {
+public class hello {
 	public long sum(long n, long m){
 		return n + m;
 	}
