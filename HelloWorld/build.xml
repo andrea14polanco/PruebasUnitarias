@@ -17,6 +17,9 @@
 	 	DirectoryNameOfYourProject/deploy/*.zip
 	 
 	-->
+	<target name="compile">
+	    <echo message="Compiling source code"/>
+	</target>
 	
 	<target name="init">
 
